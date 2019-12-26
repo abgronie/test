@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ControlCircle",
+            "request": "launch",
+            "mainClass": "ControlCircle"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ControlCircleWithoutEventHandling",
+            "request": "launch",
+            "mainClass": "ControlCircleWithoutEventHandling"
+        }
+    ]
+}
