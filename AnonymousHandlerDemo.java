@@ -21,28 +21,28 @@ public class AnonymousHandlerDemo extends Application{
         btNew.setOnAction(new EventHandler<ActionEvent>(){
             @Override // Overrides the handle method in the EventHandler<ActionEvent> interface
             public void handle(ActionEvent e){
-                System.out.println("Process New")
+                System.out.println("Process New");
             }
         });
 
         btOpen.setOnAction(new EventHandler<ActionEvent>(){
             @Override // Overrides the handle method in the EventHandler<ActionEvent> interface
             public void handle(ActionEvent e){
-                System.out.println("Process Open")
+                System.out.println("Process Open");
             }
         });
 
         btSave.setOnAction(new EventHandler<ActionEvent>(){
             @Override // Overrides the handle method in the EventHandler<ActionEvent> interface
             public void handle(ActionEvent e){
-                System.out.println("Process Save")
+                System.out.println("Process Save");
             }
         });
 
         btPrint.setOnAction(new EventHandler<ActionEvent>(){
             @Override // Overrides the handle method in the EventHandler<ActionEvent> interface
             public void handle(ActionEvent e){
-                System.out.println("Process Print")
+                System.out.println("Process Print");
             }
         });
 
