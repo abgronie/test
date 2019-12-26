@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import javax.swing.*;
 
 public class AnonymousHandlerDemo extends Application{
     @Override // Override the start method in the Application class
@@ -21,7 +22,9 @@ public class AnonymousHandlerDemo extends Application{
         btNew.setOnAction(new EventHandler<ActionEvent>(){
             @Override // Overrides the handle method in the EventHandler<ActionEvent> interface
             public void handle(ActionEvent e){
-                System.out.println("Process New");
+                String message = "Process New File";
+                System.out.println(message);
+                JOptionPane.showMessageDialog(null, message);
             }
         });
 
